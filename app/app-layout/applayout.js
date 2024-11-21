@@ -1,6 +1,6 @@
 import React from 'react';
 
-const AppLayout = () => {
+export default function AppLayout() {
     return (
         <div style={{ display: 'flex', height: '100vh', overflow: 'hidden', margin: 0, fontFamily: 'Arial, sans-serif' }}>
             <div className="sidebar" style={{ width: '20%', backgroundColor: '#040404', color: 'white', padding: '20px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
@@ -37,6 +37,4 @@ const AppLayout = () => {
             </div>
         </div>
     );
-};
-
-export default AppLayout;
+}
